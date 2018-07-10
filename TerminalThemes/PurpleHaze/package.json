@@ -1,0 +1,9 @@
+{
+  "name": "testTheme",
+  "version": "1.1.5",
+  "description": "A test theme for Hyper",
+  "main": "index.js",
+  "repository": "https://github.com/tiezeehc/Terminal-Themes.git",
+  "author": "Parker Shelton",
+  "license": "MIT"
+}

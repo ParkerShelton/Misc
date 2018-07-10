@@ -1,0 +1,18 @@
+Overall notes:  Due July 13th
+  - only need html right now. (im going to do css because ugly websites hurt my head)
+
+Home:
+  - links at the top
+  - have my initals as like a hero sorta
+  - id like to have the site as minimal and content driven as possible
+  - if i have time, make the links be hidden and have them slide in from a menu button
+  - if it were up to me id have the home page not scroll, have it all fit on one screen
+  - have three divs to describe the main purpose of the site
+  - I think itd be cool to have my participation in the r2h written as if it were source code or something
+
+
+Biography: 
+  - Have the page split into 3 divs top left, bottom left, and the right column is one div
+  - Title in the top left
+  - Picture in the bottom left
+  - whole right column is a description about me
