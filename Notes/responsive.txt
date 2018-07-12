@@ -1,0 +1,42 @@
+
+Rules for responsive web design:
+
+	- rule 1: viewport meta
+	- rule 2: use fluid units (percentages)
+	- rule 3: flexbox is awesome
+	- rule 4: CONTENT first, not mobile
+
+
+if you use media quiries min and max-width to edit an element use -1px to avoid double breakpoints
+
+use $variable to set a breakpoint variable
+@media (min-width $variable)
+
+
+
+
+look up viewport meta tag
+
+-- Dont forget to use height, not just width.
+
+
+
+for simulator open xcode, open developer tool, simulator
+
+
+
+
+flex basic
+flex grow
+order!	use as needed, be careful
+
+#################### BASICALLY LEARN FLEXBOX ####################
+
+
+dont forget box-sizing and border-bo
+
+
+
+
+
+css scroll snapping to make sliders	(only supported in safari and ios currently)
