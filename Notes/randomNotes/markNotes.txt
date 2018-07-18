@@ -1,0 +1,13 @@
+CSS positioning
+
+
+	- static (the default)
+	- absolute (takes the element out of the flow, its pinned to the body not the window) 
+	- relative (preserves the elements original position in the flow)
+	- fixed (does come out of the flow, its pinned to the window not the body)
+
+
+
+uses  for relative: 
+	- acts as parent for absolutely positioned elements
+	- can be used to slightly shift an element while keeping its position in the flow
