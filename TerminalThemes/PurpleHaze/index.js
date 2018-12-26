@@ -1,12 +1,12 @@
-const bg = '#000'; /*#29283b */
+const bg = '#29283b';
 const fg = '#b3b0d6';
-const black = '#15151e';
+const black = '#000';
 const red = '#ef6487';
-const green = '#5eca89';
-const yellow = '#fdd877';
-const blue = '#65aef7';
+const green = '#cfa5f3';	//Actually different shade of purple for file paths
+const yellow = '#ffdca8';	//Better yellow
+const blue = '#dedeed';		//More of a dark purple for directories
 const magenta = '#aa7ff0';
-const cyan = '#43c1be';
+const cyan = '#f58aa5';		//Actually salmon
 const white = '#ffffff';
 
 exports.decorateConfig = (config) => {
@@ -14,7 +14,7 @@ exports.decorateConfig = (config) => {
     cursorColor: fg,
     foregroundColor: fg,
     backgroundColor: bg,
-    borderColor: black,
+    borderColor: fg,
     colors: {
       black,
       red,
@@ -25,7 +25,7 @@ exports.decorateConfig = (config) => {
       cyan,
       white,
       lightBlack: black,
-      lightRed: red,
+      //lightRed: red,
       lightGreen: green,
       lightYellow: yellow,
       lightBlue: blue,
@@ -37,8 +37,8 @@ exports.decorateConfig = (config) => {
       ${config.css || ''}
 
       .hyper_main {
-        border-width: 3px;
-        box-shadow: 5px 5px;
+        border-width: 6px;
+        //box-shadow: 5px 5px;
       }
     `
   });
